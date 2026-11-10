@@ -4,3 +4,13 @@ FFXI-Launcher/*
 x64/
 *.bin
 config.json
+
+# AutoPOL-AHK local and credential-bearing state
+AHK/data/
+AHK/launcher.ini
+AHK/accounts-metadata.ini
+AHK/config.json
+AHK/usr/
+AHK/credentials/
+AHK/*.log
+AHK/*.json

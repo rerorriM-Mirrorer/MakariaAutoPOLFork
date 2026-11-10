@@ -1,3 +1,9 @@
+# AHK v2 development branch — source checkpoint (0.4.34)
+
+This is the **`development/autopol-ahk`** branch. The AHK v2 source snapshot is in [`AHK/`](AHK/). It contains an **UPDATE-only** script and documentation, not the complete assets/helpers for a fresh installation. See [`BRANCH-AHK-README.md`](BRANCH-AHK-README.md) and [`TESTING.md`](TESTING.md). The older C++ project documented below remains intact here; its last trusted source is still on `main`.
+
+---
+
 # FFXI-AutoLogin (Makaria Fork)
 
 **Original by: jaku | https://github.com/jaku/FFXI-autoPOL**
