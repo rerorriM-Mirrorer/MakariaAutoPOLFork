@@ -14,3 +14,21 @@ AHK/usr/
 AHK/credentials/
 AHK/*.log
 AHK/*.json
+# AutoPOL-AHK local profiles, backups and transient files
+AHK/accounts-metadata.ini*
+AHK/launcher.ini*
+AHK/data/
+AHK/credentials/
+AHK/usr/
+AHK/config*.json
+AHK/login_w*.bin
+AHK/*.log
+AHK/*.tsv
+AHK/*.bak
+AHK/*.tmp
+AHK/**/Thumbs.db
+AHK/__pycache__/
+AHK/**/*.pyc
+# Trust's upstream art should be copied locally or loaded from Windower, not republished
+AHK/assets/trust/backgrounds/
+AHK/assets/trust/buttons/
