@@ -1,3 +1,15 @@
+# Current Development Status — November 10, 2026 — clean fresh-install archive assembled
+
+- **Repo/branch:** `rerorriM-Mirrorer/MakariaAutoPOLFork` / `development/autopol-ahk`. The complete user-supplied `AutoPOL-AHK.zip` was reviewed as a *private local install*, not uploaded wholesale.
+- **Preserved source:** the original `AutoPOL-AHK.ahk` remains byte-for-byte equal to the previously published 0.4.34 source (SHA-256 `cdca63a2a1f68d7e9abffac17f9618fe2a1bece73ff490efa23ce602914f8e13`). No login or runtime source was edited.
+- **Fresh-install package:** `AutoPOL-AHK-0.4.34-FRESH-INSTALL.zip` was assembled for the user in this chat, 59 files, SHA-256 `a476ac546a512750ef582ec79b3bc0e5a19b7e9051414926e036f3f36f43fbce`. Includes core AHK, compatibility launcher, seven PowerShell helpers, 34 currently required glow PNGs, 10 user-supplied Trust UI assets for their private installation, and installation/development documentation. Generated four absent glow sizes from nearby included art: hover/selected 120x36 and 465x35.
+- **Excluded:** all `data/` (including encrypted credentials, diagnostics and caches), `launcher.ini`, `accounts-metadata.ini*`, backup/failed versions, unused glow sizes, research notes and test fixtures from the end-user ZIP. Do not upload the unfiltered user ZIP or publish upstream Trust artwork.
+- **Validation:** The complete 0.4.34 Python static regression passed in a separate review directory after providing the four missing glow PNGs and a synthetic `tests/fixtures/windower-settings.xml` fixture. ZIP CRC and file-byte checks passed; no account/credential/config data is included. These are offline/static checks only. No native AutoHotkey, PlayOnline or FFXI test was run.
+- **GitHub publication boundary:** The previous public source-only 0.4.34 checkpoint is preserved. The entire fresh-install binary/helper set has **not** been added as individual GitHub sources in this batch. The branch's root `.gitignore` was tightened to cover backed-up metadata, private runtime data and third-party Trust art.
+- **Next:** Import the clean, original helper scripts and freely redistributable glow images into the branch, reconstruct a GitHub-buildable fresh-install artifact without upstream Trust artwork, then independently test a Windows fresh install and two-character login before treating it as release-ready.
+
+---
+
 # Current Development Status — 2026-11-10 — GitHub source publication
 
 - **Repository/branch:** `rerorriM-Mirrorer/MakariaAutoPOLFork` / `development/autopol-ahk`. Source is from the user-supplied `AutoPOL-AHK-0.4.34-UPDATE(1).zip`, not a complete distribution. The parent is the existing C++ `main` branch; no C++ files were modified.
